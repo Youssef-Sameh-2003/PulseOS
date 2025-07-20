@@ -1,0 +1,10 @@
+megs: 64               # RAM size in MB
+romimage: file=BIOS-bochs-latest
+vgaromimage: file=VGABIOS-lgpl-latest
+boot: cdrom            # or 'disk' or 'floppy'
+cdrom: terminal.iso          # path to your ISO image
+# or for raw floppy/hard disk images:
+# floppy: 1_44=yourfloppy.img
+# ata0-master: type=disk, path="yourdisk.img", mode=flat, cylinders=20, heads=16, spt=63
+display_library: x     # use 'win32' for Windows
+log: bochs.log         # log file
